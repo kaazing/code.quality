@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.kaazing</groupId>
+    <artifactId>code.quality</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>Code Quality</name>
+    <description>
+        Configuration for code quality tools such as Checkstyle, FindBugs and PMD.
+    </description>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <inceptionYear>2014</inceptionYear>
+
+    <scm>
+        <url>https://github.com/kaazing/code.quality.git</url>
+        <connection>scm:git:https://github.com/kaazing/code.quality.git</connection>
+    </scm>
+
+    <properties>
+        <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+    </properties>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <name>Kaazing</name>
+            <url>https://github.com/kaazing</url>
+            <organization>Kaazing Corporation</organization>
+            <organizationUrl>http://kaazing.org/</organizationUrl>
+        </developer>
+    </developers>
+
+</project>
+
