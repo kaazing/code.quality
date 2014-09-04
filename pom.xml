@@ -5,12 +5,14 @@
     <groupId>org.kaazing</groupId>
     <artifactId>code.quality</artifactId>
     <packaging>jar</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
     <name>Code Quality</name>
     <description>
         Configuration for code quality tools such as Checkstyle, FindBugs and PMD.
     </description>
+
+    <url>https://github.com/kaazing/code.quality</url>
 
     <licenses>
         <license>
@@ -44,6 +46,7 @@
     <developers>
         <developer>
             <name>Kaazing</name>
+            <email>developers@kaazing.com</email>
             <url>https://github.com/kaazing</url>
             <organization>Kaazing Corporation</organization>
             <organizationUrl>http://kaazing.org/</organizationUrl>
