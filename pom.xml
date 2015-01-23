@@ -2,7 +2,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.kaazing</groupId>
+    <parent>
+        <groupId>org.kaazing</groupId>
+        <artifactId>community</artifactId>
+        <version>1.2</version>
+    </parent>
+
     <artifactId>code.quality</artifactId>
     <packaging>jar</packaging>
     <version>1.1-SNAPSHOT</version>
