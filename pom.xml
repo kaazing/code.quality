@@ -5,7 +5,7 @@
     <groupId>org.kaazing</groupId>
     <artifactId>code.quality</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 
     <name>Code Quality</name>
     <description>Configuration for code quality tools such as Checkstyle, FindBugs and PMD.</description>
