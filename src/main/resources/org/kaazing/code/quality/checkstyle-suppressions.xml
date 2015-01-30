@@ -7,3 +7,4 @@
     <suppress checks="Javadoc.*" files=".+[\\/]internal[\\/].+" />
     <suppress checks="Javadoc.*" files=".+[\\/]src[\\/]test[\\/].+" />
 </suppressions>
+

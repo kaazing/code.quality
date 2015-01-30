@@ -7,7 +7,6 @@
         name="pattern" value="(test[^/]*/.*|LocalTimeProtocol|LinkedTransferQueue|Version|jzlib/.*|com/sun/nio/sctp/.*)\.java" 
         /> </module> -->
     <module name="FileTabCharacter" />
-    <!-- <module name="JavadocPackage"/> -->
     <module name="NewlineAtEndOfFile">
         <property name="lineSeparator" value="lf" />
     </module>
@@ -82,9 +81,6 @@
         <module name="RedundantImport" />
         <!-- Commented out due to false positives. <module name="UnusedImports"> 
             <property name="processJavadoc" value="true"/> </module> -->
-        <module name="JavadocStyle">
-            <property name="checkFirstSentence" value="false" />
-        </module>
         <module name="UpperEll" />
         <module name="ArrayTypeStyle" />
         <module name="OuterTypeFilename" />
@@ -96,13 +92,21 @@
         <module name="MethodParamPad" />
         <module name="ParenPad" />
         <module name="TypecastParenPad" />
-        <module name="JavadocType" />
+        <!-- requires checkstyle 6.x, see MCHECKSTYLE-272
+        <module name="JavadocPackage"/>
+        -->
+        <module name="JavadocType" >
+            <property name="scope" value="public" />
+        </module>
         <module name="JavadocVariable">
             <property name="scope" value="public" />
         </module>
-        <module name="JavadocStyle" />
-        <module name="JavadocMethod">
-            <property name="allowMissingJavadoc" value="true" />
+        <module name="JavadocStyle" >
+            <property name="scope" value="public" />
+        </module>
+        <module name="JavadocMethod" >
+            <property name="scope" value="public" />
         </module>
     </module>
 </module>
+
