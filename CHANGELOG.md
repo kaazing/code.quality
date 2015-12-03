@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/kaazing/code.quality/tree/HEAD)
 
-[Full Changelog](https://github.com/kaazing/code.quality/compare/1.2...HEAD)
+[Full Changelog](https://github.com/kaazing/code.quality/compare/1.3...HEAD)
+
+**Merged pull requests:**
+
+- Add license header to modern checkstyle [\#14](https://github.com/kaazing/code.quality/pull/14) ([jfallows](https://github.com/jfallows))
+- Add checkstyle-modern.xml for nuklei project… [\#13](https://github.com/kaazing/code.quality/pull/13) ([jfallows](https://github.com/jfallows))
+
+## [1.3](https://github.com/kaazing/code.quality/tree/1.3) (2015-11-12)
+[Full Changelog](https://github.com/kaazing/code.quality/compare/1.2...1.3)
 
 **Merged pull requests:**
 
