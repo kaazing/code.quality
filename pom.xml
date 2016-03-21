@@ -10,7 +10,7 @@
 
     <artifactId>code.quality</artifactId>
     <packaging>jar</packaging>
-    <version>develop-SNAPSHOT</version>
+    <version>1.5</version>
 
     <name>Code Quality</name>
     <url>https://github.com/kaazing/code.quality</url>
