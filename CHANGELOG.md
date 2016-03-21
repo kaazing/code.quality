@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/kaazing/code.quality/tree/HEAD)
 
-[Full Changelog](https://github.com/kaazing/code.quality/compare/1.3...HEAD)
+[Full Changelog](https://github.com/kaazing/code.quality/compare/1.4...HEAD)
+
+**Merged pull requests:**
+
+- Remove JUnitTestCase rule due to backwards incompatible change… [\#16](https://github.com/kaazing/code.quality/pull/16) ([jfallows](https://github.com/jfallows))
+- updated travis file [\#15](https://github.com/kaazing/code.quality/pull/15) ([mihneac](https://github.com/mihneac))
+
+## [1.4](https://github.com/kaazing/code.quality/tree/1.4) (2015-12-03)
+[Full Changelog](https://github.com/kaazing/code.quality/compare/1.3...1.4)
 
 **Merged pull requests:**
 
